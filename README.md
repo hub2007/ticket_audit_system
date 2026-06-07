@@ -32,7 +32,7 @@
 ## 目录结构
 
 ```
-tkt_adt_sys/
+ticket_audit_system/
 ├── frontend/                 # 前端（HTML/CSS/JS）
 │   └── index.html            # 单文件应用
 ├── backend/                  # 后端（Python Flask）
