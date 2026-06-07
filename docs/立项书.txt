@@ -185,38 +185,3 @@
 年   月    日
 
 
-前端（2人）
-学什么	用在哪	难度
-HTML5 标签	表单、按钮、表格结构	低
-CSS3 Flexbox/Grid	页面布局、响应式适配	低
-JavaScript 基础	变量、函数、循环、条件判断	中
-JavaScript DOM操作	动态渲染评分结果、页面交互	中
-JavaScript indexOf	关键词匹配检测	低
-Canvas API	知识图谱可视化（画圆/画线/填字）	中
-localStorage	工单库存、暂存区持久存储	低
-Blob API	TXT文件导出	低
-Fetch API	前端调后端接口	中
-
-
-后端（2人）
-学什么	用在哪	难度
-Python 基础语法	变量、函数、循环、条件判断	低
-Flask 框架	搭建API服务	中
-jieba 分词	中文分词、关键词提取	低
-语义相似度计算	自动识别同义表述	中
-Fetch API 联调	前后端数据交互	中
-
-
-全体都要了解
-了解什么	为什么
-JSON 数据格式	知识图谱数据存储
-知识图谱基本概念	实体、关系、可视化
-Git 基本操作	代码版本管理
-校核规则评分逻辑	理解系统怎么打分的
-
-
-	后端+架构	Python + Flask + 规则引擎 + DeepSeek API	3周
-	后端+NLP	Python + jieba + 语义匹配 + 词库建设	3周
-	前端+UI	HTML/CSS/JS + DOM + localStorage + 响应式	3周
-	前端+图谱	HTML/CSS/JS + Canvas + Fetch API	3周
- 	协调+测试	Python基础 + JS基础 + Git + Chrome DevTools	2周
