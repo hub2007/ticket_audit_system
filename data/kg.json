@@ -1,9 +1,35 @@
 {
-  "entities": {
-    "devices": [],
-    "faults": [],
-    "locations": [],
-    "symptoms": []
-  },
-  "relations": []
+  "equipments": [
+    { "id": 0, "name": "服务器",     "faults": [0, 1, 4, 7], "scenes": [0, 1] },
+    { "id": 1, "name": "路由器",     "faults": [1, 2],       "scenes": [0, 1, 2] },
+    { "id": 2, "name": "交换机",     "faults": [1, 2],       "scenes": [0, 1, 2, 3, 4, 5] },
+    { "id": 3, "name": "打印机",     "faults": [4, 5, 9, 10], "scenes": [2, 3, 5] },
+    { "id": 4, "name": "办公电脑",   "faults": [1, 2, 3, 6, 7, 8], "scenes": [2, 3] },
+    { "id": 5, "name": "防火墙",     "faults": [1, 6],       "scenes": [0, 1] },
+    { "id": 6, "name": "存储阵列",   "faults": [7, 8],       "scenes": [0, 1] },
+    { "id": 7, "name": "UPS电源",    "faults": [7],          "scenes": [0, 1] },
+    { "id": 8, "name": "多媒体设备", "faults": [11],         "scenes": [3, 4] }
+  ],
+  "faults": [
+    { "id": 0,  "name": "宕机" },
+    { "id": 1,  "name": "网络中断" },
+    { "id": 2,  "name": "无法开机" },
+    { "id": 3,  "name": "蓝屏" },
+    { "id": 4,  "name": "无法连接" },
+    { "id": 5,  "name": "卡纸" },
+    { "id": 6,  "name": "系统崩溃" },
+    { "id": 7,  "name": "散热异常" },
+    { "id": 8,  "name": "硬盘故障" },
+    { "id": 9,  "name": "缺墨" },
+    { "id": 10, "name": "驱动故障" },
+    { "id": 11, "name": "投影异常" }
+  ],
+  "scenes": [
+    { "id": 0, "name": "机房" },
+    { "id": 1, "name": "数据中心" },
+    { "id": 2, "name": "办公室" },
+    { "id": 3, "name": "教学楼" },
+    { "id": 4, "name": "实验室" },
+    { "id": 5, "name": "图书馆" }
+  ]
 }
